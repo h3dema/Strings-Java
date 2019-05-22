@@ -1,0 +1,20 @@
+/*
+ * String.concat() concatena (une no final d) a string original com a nova string passada como parâmetro.
+If the length of the argument string is 0, then this String object is returned. Otherwise, a new String object is created, representing a character sequence that is the concatenation of the character sequence represented by this String object and the character sequence represented by the argument string.
+ */
+class StringConcatenacao {
+
+  public static void main(String[] args) {
+    String s1 = "Concatenates to the end of this string";
+    String s2 = ", this new string.";
+  
+    String s3 = s1.concat(s2);
+    System.out.println("s1: "+s1);
+    System.out.println("s2: "+s2);
+    System.out.println("s3: "+s3);
+    /**
+     * note que é gerada uma nova string, as strings originais não são alteradas
+     */
+  }
+
+}

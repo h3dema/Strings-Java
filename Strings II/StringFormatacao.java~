@@ -1,0 +1,12 @@
+class StringFormatacao {
+  
+  /**
+   * String.format()
+   * Returns a formatted string using the specified format string and arguments.
+   * The locale always used is the one returned by Locale.getDefault()
+   */
+  public static void main(String[] args) {
+    
+  }
+  
+}
